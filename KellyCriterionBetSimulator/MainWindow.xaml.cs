@@ -25,9 +25,21 @@ namespace KellyCriterionBetSimulator
             InitializeComponent();
         }
 
+        public void CheckProbability(double probabilityWin)
+        {
+            if (probabilityWin < 0 | probabilityWin > 1)
+            {
+                MessageBox.Show("Talet måste vara en siffra mellan 0 och 100");
+            }
+        }
+
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
+            double probabilityWin = double.Parse(txtBoxWinProb.Text) / 100;
+            CheckProbability(probabilityWin);
 
+            Calculator calculator = new Calculator(probabilityWin);
+            
         }
     }
 }

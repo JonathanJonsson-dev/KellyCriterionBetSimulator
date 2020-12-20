@@ -7,13 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnStart" Click="btnStart_Click" Content="Begin Simulation" HorizontalAlignment="Left" Margin="552,182,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtBoxPayoutLoss" HorizontalAlignment="Left" Margin="552,159,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxWinProb" HorizontalAlignment="Left" Margin="552,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxPayoutWin" HorizontalAlignment="Left" Margin="552,141,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Probability of win" HorizontalAlignment="Left" Margin="450,119,0,0" VerticalAlignment="Top"/>
-        <Label Content="Payout win" HorizontalAlignment="Left" Margin="450,137,0,0" VerticalAlignment="Top"/>
-        <Label Content="Payout loss" HorizontalAlignment="Left" Margin="450,155,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStart" Click="btnStart_Click" Content="Begin Simulation" HorizontalAlignment="Left" Margin="576,182,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxPayoutLoss" HorizontalAlignment="Left" Margin="576,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxWinProb" HorizontalAlignment="Left" Margin="576,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxPayoutWin" HorizontalAlignment="Left" Margin="576,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Probability of win" HorizontalAlignment="Left" Margin="474,119,0,0" VerticalAlignment="Top"/>
+        <Label Content="Payout win" HorizontalAlignment="Left" Margin="474,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="Payout loss" HorizontalAlignment="Left" Margin="474,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="%" HorizontalAlignment="Left" Margin="696,119,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxNrOfBets" HorizontalAlignment="Left" Margin="576,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Number of bets" HorizontalAlignment="Left" Margin="474,100,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
