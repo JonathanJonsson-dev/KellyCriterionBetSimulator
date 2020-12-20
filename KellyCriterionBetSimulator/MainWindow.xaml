@@ -1,0 +1,19 @@
+﻿<Window x:Class="KellyCriterionBetSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KellyCriterionBetSimulator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnStart" Click="btnStart_Click" Content="Begin Simulation" HorizontalAlignment="Left" Margin="552,182,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxPayoutLoss" HorizontalAlignment="Left" Margin="552,159,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxWinProb" HorizontalAlignment="Left" Margin="552,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxPayoutWin" HorizontalAlignment="Left" Margin="552,141,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Probability of win" HorizontalAlignment="Left" Margin="450,119,0,0" VerticalAlignment="Top"/>
+        <Label Content="Payout win" HorizontalAlignment="Left" Margin="450,137,0,0" VerticalAlignment="Top"/>
+        <Label Content="Payout loss" HorizontalAlignment="Left" Margin="450,155,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
